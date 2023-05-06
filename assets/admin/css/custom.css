@@ -1,0 +1,55 @@
+/*================================ 
+CUSTOMs
+=================================*/
+
+.btn-sm-custom {
+    font-size: 12px;
+}
+
+/* Datatables */
+div.dataTables_wrapper div.dataTables_length select {
+    width: 60px !important;
+}
+
+.dataTables_info {
+    font-size: 12px;
+}
+
+a[data-dt-idx="previous"],
+a[data-dt-idx="next"] {
+	font-size: 0 !important;
+}
+
+a[data-dt-idx="previous"]::before {
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f053";
+    font-size: 12px !important;
+}
+
+a[data-dt-idx="next"]::before {
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f054";
+    font-size: 12px !important;
+}
+
+.page-link.active, .active>.page-link {
+    color:#fff;
+    background-image: linear-gradient(310deg, #11998e 0%, #47b871 100%);
+    border-color: transparent;
+}
+
+.nice-select {
+    width: 100% !important;
+    line-height: 23px !important;
+}
+
+.nice-select .nice-select-dropdown {
+    width: 100% !important;
+}
+
+/* blockUi */
+.blockUI h3 {
+    color: #fff;
+}
